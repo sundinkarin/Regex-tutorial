@@ -44,8 +44,6 @@ The regex components are listed below.
 ### Anchors
 The `^` anchor signifies a string that begins with the characters that follow it. In all cases the regex is case sensitive. It can be done in two ways. First is an exact match of characters and spaces. The second way to match is with a range of matches using bracket expressions.
 
-In the expression up above...
-
 ### Quantifiers
 Quantifiers often include the minimum and maximum regex that you are searcching for.  
 
