@@ -50,8 +50,8 @@ In the expression up above...
 Quantifiers often include the minimum and maximum regex that you are searcching for.  
 
 ### OR Operator
-`a(b|c)`     matches a string that has a followed by b or c (and captures b or c) ->
-`a[bc]`      same as previous, but without capturing b or c
+`a(b|c)`     matches a string that has a followed by `b` or `c` (and captures `b` or `c`) `->`
+`a[bc]`      same as previous, but without capturing` b` or `c`
 
 ### Character Classes
 Distinguish different types of characters, between letters and digits.
@@ -71,9 +71,9 @@ A range of characters to be matched are set inside square brackets `[]`. We can 
 `+` matches the pattern 1 or more times.
 `?` matches the pattern 0 or 1 time.
 `{}` there are 3 ways to use these brackets
-    `{n}` exact match n number of times
-    `{n,}` matches at least n number of times
-    `{n, x}` matches from a minimum of n to a maximum of x
+    `{n}` exact match `n` number of times
+    `{n,}` matches at least `n` number of times
+    `{n, x}` matches from a minimum of `n` to a maximum of `x`
 
 ### Greedy and Lazy Match
 The quantifiers are greedy and find all occurences of the pattern. but if you add a `?` at the end it finds the least number of occurences possible.
