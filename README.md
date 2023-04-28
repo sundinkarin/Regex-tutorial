@@ -1,4 +1,4 @@
-# Regex Explained
+# Regex HTML Tag Explained
 
 In JavaScript you can sort direct matches using the literal meaning of the keys. To make a more usefull encompassing search you can use a regular expression - also known as a regex. Regex are universal and can be used within all programming languages. 
 
